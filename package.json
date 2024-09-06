@@ -1,5 +1,5 @@
 {
-  "homepage": "http://{Pratahm-bit}.github.io/{}",
+  "homepage": "http://Pratahm-bit.github.io/Textutils",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
