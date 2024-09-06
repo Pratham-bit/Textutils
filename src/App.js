@@ -43,10 +43,10 @@ function App() {
         <div className="container my-4">
           <Routes>
             {/* Define the route for the About page */}
-            <Route path="/about" element={<About />} />
+            <Route exact path="/about" element={<About />} />
 
             {/* Define the route for the Home page (Textform) */}
-            <Route path="/" element={<Textform showalert={showalert} heading="Enter the text to analyze" mode={mode} />} />
+            <Route exact path="/" element={<Textform showalert={showalert} heading="Enter the text to analyze" mode={mode} />} />
           </Routes>
         </div>
       </Router>
